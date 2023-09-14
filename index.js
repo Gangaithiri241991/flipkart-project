@@ -10,7 +10,7 @@ import dotenv from "dotenv"
  
  //const client =await createConnection();
  
- const url="mongodb+srv://<ajitha>:<ajitha29@>@cluster0.w5zik5e.mongodb.net/?retryWrites=true&w=majority"
+ const url="mongodb+srv://ajitha:ajitha29@@cluster0.w5zik5e.mongodb.net/?retryWrites=true&w=majority"
  const client = new MongoClient(url, { useNewUrlParser: true, useUnifiedTopology: true });
  dotenv.config();
  const app = express();
